@@ -1,0 +1,12 @@
+{
+  "name": "SalesDataPipeline",
+  "properties": {
+    "activities": [
+      {"name": "GetMetadata", "type": "GetMetadata"},
+      {"name": "TransformCSV", "type": "PythonActivity"},
+      {"name": "CopyToSQL", "type": "CopyActivity"},
+      {"name": "CreateSummary", "type": "SqlScriptActivity"}
+    ],
+    "annotations": ["Demo pipeline for GitHub portfolio"]
+  }
+}

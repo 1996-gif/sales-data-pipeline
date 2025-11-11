@@ -1,0 +1,5 @@
+month,region,total_sales,unique_customers
+2025-01,North,320,1
+2025-01,South,400,1
+2025-01,West,320,1
+2025-01,East,240,1

@@ -1,0 +1,6 @@
+order_id,order_date,customer,region,product,quantity,unit_price
+1001,2025-01-02,John Doe,North,Soap,10,20
+1002,2025-01-02,Jane Smith,South,Shampoo,5,80
+1003,2025-01-03,David Lee,West,Toothpaste,8,40
+1004,2025-01-04,John Doe,North,Soap,6,20
+1005,2025-01-05,Alice Ray,East,Shampoo,3,80
