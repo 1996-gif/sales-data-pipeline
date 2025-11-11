@@ -1,36 +1,32 @@
-# Automated Sales Data Pipeline — From Raw CSV to Clean SQL Table using Azure Data Factory
+# 🚀 Automated Sales Data Pipeline — Azure Data Factory + Python + SQL
 
-## Overview
-This project demonstrates how to build a data ingestion and transformation pipeline that ingests raw sales CSVs from Azure Blob Storage, cleans them using Python, and loads them into Azure SQL for reporting.
+![Azure](https://img.shields.io/badge/Azure-Data%20Factory-blue)
+![Python](https://img.shields.io/badge/Python-ETL-yellow)
+![SQL](https://img.shields.io/badge/SQL-Data%20Warehouse-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-## Tech Stack
-- Azure Data Factory
-- Azure Blob Storage
-- Azure SQL Database
-- Python
-- SQL
+---
 
-## Project Structure
-```
-sales-data-pipeline/
-├── data/
-│   ├── raw/
-│   └── clean/
-├── scripts/
-├── adf_pipeline/
-└── reports/
-```
+## 📖 Project Overview
+This project demonstrates how to design a **real-world data pipeline** that automates the process of:
+1. Ingesting raw sales CSV files from **Azure Blob Storage**
+2. Cleaning and transforming data using **Python**
+3. Loading the clean data into **Azure SQL Database**
+4. Creating an aggregated **monthly sales summary** using **SQL**
 
-## How It Works
-1. Upload sales CSVs to Azure Blob Storage.
-2. ADF triggers a Python script to clean and transform data.
-3. ADF copies the clean data into Azure SQL.
-4. A stored procedure aggregates sales per region/month.
+It simulates the same workflow many companies use to automate daily reporting.
 
-## Example
-Raw → Clean → SQL → Report summary.
+---
 
-## Author
-**Sandeep Sawan**
-_Data Engineer | Azure | SQL | Python_
-📧 sandeep.sawan.careers@gmail.com
+## 🧠 Objectives
+✅ Build an **end-to-end ETL/ELT pipeline**  
+✅ Apply **data cleaning and transformation** logic  
+✅ Automate data loading and reporting  
+✅ Showcase **Azure Data Factory orchestration** in a portfolio-ready example
+
+---
+
+## 🧱 Architecture Diagram
+![Pipeline Overview](pipeline_overview.png)
+
+**Workflow:**
