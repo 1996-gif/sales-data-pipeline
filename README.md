@@ -26,8 +26,6 @@ It simulates the same workflow many companies use to automate daily reporting.
 
 ---
 
-## 🧱 Architecture Diagram
-![Architecture](architecture.png)
 
 ---
 
