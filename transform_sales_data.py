@@ -22,4 +22,4 @@ df['month'] = df['order_date'].dt.to_period('M')
 Path("data/clean").mkdir(parents=True, exist_ok=True)
 df.to_csv(clean_path, index=False)
 
-print("✅ Cleaned data saved:", clean_path)
+print("Cleaned data saved:", clean_path)
